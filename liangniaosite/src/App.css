@@ -1,0 +1,134 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/*
+  section 1
+*/
+.section1 {
+  /*background-image: url("res/homeBG.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #000;
+  @media (max-width: 800px) {
+    background-size: cover;
+  }*/
+}
+.section1Container {
+  /*background-color: #00000099;*/
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.titleNav {
+  text-align: center;
+}
+.title {
+  font-size: 60px;
+  color: #222;
+}
+.subtitle {
+  color: #222;
+}
+
+/*
+  section 2
+*/
+.section2Container {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.section2text {
+  /*font-size: 20px;*/
+  color: #222;
+}
+
+/*
+  section 3
+*/
+.apptextcontainer {
+  padding-top: 60px;
+  text-align: center;
+}
+.sec3subtitle {
+  font-size: 20px;
+  color: #222;
+}
+.sec3subcontent {
+  color: #222;
+}
+.lineV {
+  border-left:1px solid #ccc; width:1px;height:300px;
+}
+
+/*
+  page apps
+*/
+.appscontainer {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+.appobj {
+  max-width: 500px;
+  margin: 20px;
+}
+.lineAppH {
+  border-top:1px solid #ccc; width:calc(100%-50px);height:1px;
+  margin: 100px;
+}
+
+/*
+  page about
+*/
+.aboutpage {
+  margin: 30px;
+}
+.joblist {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.jobcon {
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+.abouttexts {
+  display: flex;
+  justify-content: space-between;
+}
+.abouttext {
+  max-width: 800px;
+  padding: 30px;
+}
